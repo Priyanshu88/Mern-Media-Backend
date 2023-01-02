@@ -2,7 +2,7 @@
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
-const url = 'https://mern-media-backend.vercel.app/';
+const url = 'https://mern-media.onrender.com/';
 
 const { MONGODB_URI } = require('./config');
 
