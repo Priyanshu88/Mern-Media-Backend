@@ -2,7 +2,7 @@
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
-const PORT = 4000;
+const url = 'https://mern-media-backend.vercel.app/';
 
 const { MONGODB_URI } = require('./config');
 
@@ -41,6 +41,6 @@ app.use(require('./routes/userRoute'));
 //     res.send("Home !");
 // });
 
-app.listen(PORT, () => {
+app.listen(url, () => {
 	console.log('server started');
 });
