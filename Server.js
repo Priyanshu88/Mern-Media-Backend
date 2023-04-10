@@ -6,6 +6,7 @@ const PORT = 3000;
 const { MONGODB_URI } = require('./config');
 
 mongoose.connect(MONGODB_URI);
+mongoose.set('strictQuery', false);
 
 mongoose.connection.on('connected', () => {
 	console.log('Connected');
