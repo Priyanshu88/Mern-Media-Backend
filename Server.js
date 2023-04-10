@@ -1,8 +1,7 @@
-
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
-const url = 'https://mern-media.onrender.com/';
+const PORT = 3000;
 
 const { MONGODB_URI } = require('./config');
 
@@ -41,6 +40,6 @@ app.use(require('./routes/userRoute'));
 //     res.send("Home !");
 // });
 
-app.listen(url, () => {
+app.listen(PORT, () => {
 	console.log('server started');
 });
