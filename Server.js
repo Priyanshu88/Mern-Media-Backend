@@ -5,8 +5,8 @@ const PORT = 3000;
 
 const { MONGODB_URI } = require('./config');
 
-mongoose.connect(MONGODB_URI);
 mongoose.set('strictQuery', false);
+mongoose.connect(MONGODB_URI);
 
 mongoose.connection.on('connected', () => {
 	console.log('Connected');
@@ -31,10 +31,10 @@ app.use(require('./routes/userRoute'));
 
 // app.use(customMiddleware);
 
-// app.get('/',(req,res) => {
-//     console.log("Welcome");
-//     res.send("Welcome !");
-// });
+app.get('/',(req,res) => {
+    console.log("Welcome");
+    res.send("Welcome !");
+});
 
 // app.get('/home',customMiddleware,(req,res) => {
 //     console.log("Home");
