@@ -55,6 +55,10 @@
 <a href=""><img  src='' alt='image' width='800'/></a>
 </div>
 
+### :video_camera: Demo
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/LCet8hdvXF8/0.jpg)](https://youtu.be/LCet8hdvXF8)
+
 Visit the frontend [HERE](https://github.com/Priyanshu88/Mern-Media-Frontend/).
 
 ### :space_invader: Tech Stack
