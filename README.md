@@ -55,7 +55,7 @@
 <a href=""><img  src='' alt='image' width='800'/></a>
 </div>
 
-Visit the backend [HERE](https://github.com/Priyanshu88/Mern-Media-Backend/).
+Visit the frontend [HERE](https://github.com/Priyanshu88/Mern-Media-Frontend/).
 
 ### :space_invader: Tech Stack
 <details> <summary>Client</summary> <ul>
