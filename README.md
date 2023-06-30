@@ -133,14 +133,17 @@ Create a frontend folder
 npx create-react-app my-project
 ```
 
-install other dependencies from [Frontend/package.json](https://github.com/Priyanshu88/Mern-Media-Frontend/blob/main/package.json).
+install other dependencies from [`Frontend/package.json`](https://github.com/Priyanshu88/Mern-Media-Frontend/blob/main/package.json).
 
 ### :test_tube: Use Materialize CSS, React-Router-DOM, Cloudinary, MongoDB
-
-• Head over to the materialize css [website](https://materializecss.com), copy the CDN command and paste it in `index.js`.
-• Install React-Router-DOM using `npm install react-router-dom`
-• Visit [Cloudinary](https://cloudinary.com) and from setting copy the apit link and use it.
-• Create account on Atlas [website](https://www.mongodb.com/atlas), create a project and from the connect option copy the Nodejs URI and use it.
+<br/>
+• Head over to the materialize css [`website`](https://materializecss.com), copy the CDN command and paste it in `index.js`.
+<br/>
+• Install React-Router-DOM using `npm install react-router-dom`.
+<br/>
+• Visit [`Cloudinary`](https://cloudinary.com) and from setting copy the apit link and use it.
+<br/>
+• Create account on Atlas [`website`](https://www.mongodb.com/atlas), create a project and from the connect option copy the Nodejs URI and use it.
 
 ### :running: Run Locally
 Create a folder
