@@ -79,6 +79,7 @@
 - Like, Dislike and Comment Feature
 - Follow and Unfollow users
 - View others and own user profile
+- See the following user posts
 
 
 ### :art: Color Reference
@@ -113,7 +114,8 @@ To run this project, you will need to add the following environment variables to
 
 #### Backend:
 
-Install my-project with npm
+Install the project with npm
+Create a backend folder
 ```bash
 npm init
 ```
@@ -122,6 +124,16 @@ then run:
 npm install --save
 ```
 install other dependencies from [Backend/package.json](https://github.com/Priyanshu88/Mern-Media-Backend/blob/main/package.json).
+
+#### Frontend:
+
+Install the project with npm
+Create a frontend folder
+```bash
+npx create-react-app my-project
+```
+
+install other dependencies from [Frontend/package.json](https://github.com/Priyanshu88/Mern-Media-Frontend/blob/main/package.json).
 
 ### :test_tube: Use Materialize CSS, React-Router-DOM, Cloudinary, MongoDB
 
@@ -162,7 +174,7 @@ and type `npm run start`
 
 ### Learn More
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This project uses [`react-lazy-load-image-components`](https://www.npmjs.com/package/react-lazy-load-image-component) to optimize and load images.
 
 <!--### :triangular_flag_on_post: Deployment
 
@@ -183,7 +195,7 @@ command
 
 Contributions are always welcome!
 
-see `contributing.md` for ways to get started
+<!--see `contributing.md` for ways to get started-->
 
 <!--### :scroll: Code of Conduct
 
