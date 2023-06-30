@@ -1,3 +1,5 @@
+/** @format */
+
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
@@ -9,7 +11,7 @@ mongoose.set('strictQuery', false);
 mongoose.connect(MONGODB_URI);
 
 mongoose.connection.on('connected', () => {
-	console.log('Connected');
+	// console.log('Connected');
 });
 
 mongoose.connection.on('error', (error) => {
@@ -31,9 +33,9 @@ app.use(require('./routes/userRoute'));
 
 // app.use(customMiddleware);
 
-app.get('/',(req,res) => {
-    console.log("Welcome");
-    res.send("Welcome !");
+app.get('/', (req, res) => {
+	console.log('Welcome');
+	res.send('Welcome !');
 });
 
 // app.get('/home',customMiddleware,(req,res) => {
