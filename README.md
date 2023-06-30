@@ -20,10 +20,10 @@
   - [Prerequisites](#bangbang-prerequisites)
   - [Installation](#gear-installation)
   - [Run Locally](#running-run-locally)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [Roadmap](#compass-roadmap)
-- [License](#warning-license)
-- [Contact](#handshake-contact)
+  <!--[Deployment](#triangular_flag_on_post-deployment)-->
+ <!--[Roadmap](#compass-roadmap)
+ [License](#warning-license)-->
+ - [Contact](#handshake-contact)
 
 
 ## :star2: About the Project
@@ -55,6 +55,7 @@
 <a href=""><img  src='' alt='image' width='800'/></a>
 </div>
 
+Visit the backend [HERE](https://github.com/Priyanshu88/Mern-Media-Backend/).
 
 ### :space_invader: Tech Stack
 <details> <summary>Client</summary> <ul>
@@ -133,17 +134,17 @@ Create a frontend folder
 npx create-react-app my-project
 ```
 
-install other dependencies from [`Frontend/package.json`](https://github.com/Priyanshu88/Mern-Media-Frontend/blob/main/package.json).
+Install other dependencies from [Frontend/package.json](https://github.com/Priyanshu88/Mern-Media-Frontend/blob/main/package.json).
 
 ### :test_tube: Use Materialize CSS, React-Router-DOM, Cloudinary, MongoDB
-<br/>
-• Head over to the materialize css [`website`](https://materializecss.com), copy the CDN command and paste it in `index.js`.
-<br/>
-• Install React-Router-DOM using `npm install react-router-dom`.
-<br/>
-• Visit [`Cloudinary`](https://cloudinary.com) and from setting copy the apit link and use it.
-<br/>
-• Create account on Atlas [`website`](https://www.mongodb.com/atlas), create a project and from the connect option copy the Nodejs URI and use it.
+
+1. Head over to the materialize css [website](https://materializecss.com), copy the CDN command and paste it in `index.js`.
+
+2. Install React-Router-DOM using `npm install react-router-dom`.
+
+3. Visit [Cloudinary](https://cloudinary.com) and from setting copy the apit link and use it.
+   
+4. Create account on Atlas [website](https://www.mongodb.com/atlas), create a project and from the connect option copy the Nodejs URI and use it.
 
 ### :running: Run Locally
 Create a folder
