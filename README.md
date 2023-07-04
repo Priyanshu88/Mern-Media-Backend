@@ -38,7 +38,7 @@
 - Other User Page
 
 <div align="center">
-<a href=''><img  src='' alt='image' width='800'/></a>
+<a href=''><img  src='https://github.com/Priyanshu88/Mern-Media-Frontend/assets/86107841/27e6537b-b4ba-4d4c-8c0d-3ff567144841' alt='image' width='800'/></a>
 </div>
 
 <br />
@@ -46,13 +46,13 @@
 - User Profile Page
 
 <div align="center">
-<a href=""><img  src='' alt='image' width='800'/></a>
+<a href=""><img  src='https://github.com/Priyanshu88/Mern-Media-Frontend/assets/86107841/620309d6-0a40-41dc-a04e-80e5a988d9e6' alt='image' width='800'/></a>
 </div>
 
 - Following Post Page
 
 <div align="center">
-<a href=""><img  src='' alt='image' width='800'/></a>
+<a href=""><img  src='https://github.com/Priyanshu88/Mern-Media-Frontend/assets/86107841/6ee0539d-00bd-4d8c-8b91-9792d37f053c' alt='image' width='800'/></a>
 </div>
 
 ### :video_camera: Demo
